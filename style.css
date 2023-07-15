@@ -18,7 +18,7 @@ body {
   row-gap: 10px;
   border-radius: 20px;
   padding: 20px;
-  background-color: #0c0c0e;
+  background-color: #17171a;
 }
 
 .header__textContainer {
@@ -66,7 +66,7 @@ body {
 
 .links__container {
   list-style-type: none;
-  background: #0c0c0e;
+  background: #17171a;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -82,7 +82,7 @@ body {
 
 .links__container__hobby {
   list-style-type: none;
-  background: #0c0c0e;
+  background: #17171a;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ body {
   align-items: flex-start;
   padding: 0px 0px 10px;
   gap: 30px;
-  border-bottom: 1px solid #141416;
+  border-bottom: 1px solid #121214;
   width: 280px;
 }
 
