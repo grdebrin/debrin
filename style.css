@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica";
-  background-color: #000000;
+  background-color: #f2f1f6;
   color: #000000;
   display: flex;
   flex-direction: column;
@@ -12,13 +12,12 @@ body {
   box-sizing: border-box;
   margin: 40px 0 20px 0;
   display: flex;
-
   width: 320px;
   column-gap: 20px;
   row-gap: 10px;
   border-radius: 20px;
   padding: 20px;
-  background-color: #17171a;
+  background-color: #ffffff;
 }
 
 .header__textContainer {
@@ -40,7 +39,6 @@ body {
   line-height: 1.2;
   font-family: "Helvetica Neue";
   align-items: center;
-  color: #fcfcfc;
 }
 
 .header__subtitle {
@@ -61,28 +59,11 @@ body {
   line-height: 1.4;
   margin: 0 0 15px 0;
   font-family: "Helvetica Neue";
-  color: #fcfcfc;
 }
 
 .links__container {
   list-style-type: none;
-  background: #17171a;
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 20px 20px 10px;
-  gap: 10px;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  box-sizing: border-box;
-  margin: 0;
-}
-
-.links__container__hobby {
-  list-style-type: none;
-  background: #17171a;
+  background: #ffffff;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -100,7 +81,6 @@ body {
 .links__title {
   font-size: 14px;
   font-size: 1.4;
-  color: #fcfcfc;
 }
 
 .links__link {
@@ -109,7 +89,7 @@ body {
   align-items: flex-start;
   padding: 0px 0px 10px;
   gap: 30px;
-  border-bottom: 1px solid #121214;
+  border-bottom: 1px solid #dedede;
   width: 280px;
 }
 
@@ -126,4 +106,5 @@ body {
 .links__title {
   margin: 0;
   min-width: 100px;
+  color: #000000;
 }
